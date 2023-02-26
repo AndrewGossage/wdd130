@@ -88,8 +88,8 @@
       <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
       <nav>
         <a href="#">Home</a>
-        <a href="#">Page2</a>
-        <a href="#">Page3</a>
+        <a href="#">Integrals</a>
+        <a href="#">Linear Regression</a>
       </nav>
       <hr>
       <h2>
@@ -100,10 +100,10 @@
           Home
         </div>
         <div class="sm-page2">
-          [Page2] <!-- change this -->
+          Integrals <!-- change this -->
         </div>
         <div class="sm-page3">
-          [Page3]  <!-- change this -->
+          Linear Regression  <!-- change this -->
         </div>
 
         <div class="top">
@@ -125,29 +125,41 @@
       </h2>
       <h3>Home page</h3>
       <p>
-        [Written copy for the home page here]
+        Complex Topics for the Everyday Person:
+In our everyday lives we can take for granted all the math going on around us. We tend to focus on only what we are doing. We drive to work, we buy lunch from the drive through, we spend about 9 hours working and 8 hours sleeping. In the time in between we have chores and friends and family obligations it can feel like there are not enough hours in the day! So why should we spend any time thinking about complex math topics? 
+
+Well put simply we will have to worry about it sometimes whether we want to or not, so we might as well be good at it, taxes, electrical work, personal finance, these all require math to some extent. Math can also make life easier in the times when we may not need it per se. One famous example is that a 12 inch pizza is not actually just a little bit bigger that a 10 inch pizza it is actually 1.44 times as big! That is something you might want to take into consideration when buying the food for your next party. 
+
+Okay so we know that math is important, and we know that it is useful. The problem becomes that math is also addictive. Once you have mastered some of the basics you may want to look at some of the more advanced topics. However, these are often presented in a way that is unapproachable. Here we will take a look at some of the slightly more complex math that has a real impact on your life and we will try to do it in an understandable way.
+
       </p>
       <p>Images for the Home page</p>
-        <img src="#" alt="image for homepage">
-        <img src="#" alt="image for homepage">
+        <img src="images/pizza.jpg" alt="image for homepage">
+        <img src="images/homework.jpg" alt="image for homepage">
 
       </ul>
-      <h3>[Page 2]</h3>
+      <h3>Integrals</h3>
       <p>
-        [Written copy for the Page 2 here]
+        An integral is a method of calculating the sum of an infinite series. What does that mean? Well it means we are going to repeat the same equation as many times as we can and then add together the results of each iteration. Above we have pictured a common function that uses an integral called the gamma function.
+
+The very tall symbol is the integral symbol. Z here refers to the number that we are passing to our function. The weird 'R' means anything we pass has to have a real part greater than 0. We are going to have an interval here represented by dt. Each time we loop through the equation we are going to increase the value of t which starts at the number at the bottom of the integral sign until it gets to the number at the top of the integral sign. We will increase it by dt. The letter e is Euler’s number. We are then going to sum all of our results. We obviously cannot actually count to infinity as this equation asks. That means we are never going to get the actual answer but we can get close rather quickly. Here is a very simple chart showing a line converging towards the answer for g(4) the more iterations we go through. 
       </p>
       <p>Images for the Page 2</p>
-        <img src="#" alt="image for page">
-        <img src="#" alt="image for page">
+        <img src="images/gamma.png" alt="gamma function">
+        <img src="images/g4.png" alt="gamma chart">
 
       </ul>
-      <h3>[Page 3]</h3>
+      <h3>Linear Regression</h3>
       <p>
-        [Written copy for the Page 3 here]
+        Linear Regression is a statistical tool used to predict values based on input variables.
+
+Linear regression is a simple concept that can be grasped fairly easily. Let’s say we want to predict the value of a home. Let’s imagine that the square footage is the only indicator of value. So we then take the square footage and multiply that by some number. We would also assume that there is some minimal value that any home in the area has. We then just add those numbers together! Now what if houses have two predictive qualities. Let’s say how old the house is. Well we then just times the age of the house by some number and add it to our total, easy! You may now be wondering how we determine what numbers to use to multiply our variables by. Well the bad news is that most of the time we are just guessing. However, we can put a house that we know that value into whatever formula we create and then test how good it is. If it performs well for a lot of houses with known values we can then try to predict unknown values! There are a lot of strategies for improving our weights and the bias (baseline number) but we won’t get into that at the moment. For now take a look at the following equation: 
+
+Here y is the value we are predicting. Beta0 is our bias. Beta1 is our first weight which we times by x1 which is our first value we can have as many values and weights as we need represented by the ellipses to Beta p / x p. We can ignore the epsilon for actually running this in the real world. It represents unavoidable error. Below is an image showing how this equation's predictions might match up against the actual values. The equation will always produce a straight line so there will almost always be some gap between predictions and the actual value.
       </p>
       <p>Images for the Page 3</p>
-        <img src="#" alt="image for page3">
-        <img src="#" alt="image for page3">
+        <img src="https://cdn-images-1.medium.com/max/1200/1*_TqRJ9SmwFzRigJhMiN2uw.png" alt="regression equation">
+        <img src="images/reg.png" alt="linear regression">
 
       </ul>
       <hr>
