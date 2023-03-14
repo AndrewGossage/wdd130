@@ -28,6 +28,7 @@
 body{
     color: var(--primary-color);
     font-family: var(--paragraph-font);
+    line-height: 2.5em;
     
     
     
@@ -102,12 +103,13 @@ nav a:hover {
 }
 .inline_img{
     max-width: 400px;
-    padding: 5px;
+    padding: 15px;
     float: left;
 }
 footer{
  
     margin-top: 200px;
+    
     grid-template-columns: 150px auto;
     background-color: var(--accent2-color);
     height: 100px;
@@ -119,18 +121,27 @@ footer{
 }
 .equation{
     width: 60%;
-   
+    max-width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
 }
 @media screen and (max-width: 900px) {
+    header{
+        display: flex;
+        
+    }
+    footer{
+        display:inline;
+        background-color: var(--accent2-color);
+        
+    }
     .inline_img{
-        max-width: 400px;
-        max-width: 80%;
-        padding: 5px;
-        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
     .equation{
         width: 100%;
