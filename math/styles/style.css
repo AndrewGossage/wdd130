@@ -92,6 +92,14 @@ nav a:hover {
     background-color: #75D9F4;
     
 }
+.main_logo2{
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    margin: auto;
+    background-color: white;
+    
+}
 .main_logo img{
     height: 400px;
     
