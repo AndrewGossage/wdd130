@@ -92,6 +92,11 @@ nav a:hover {
     background-color: #75D9F4;
     
 }
+.main_logo img{
+    height: 400px;
+    
+    
+}
 .main_logo2{
     justify-content: center;
     justify-items: center;
@@ -100,8 +105,9 @@ nav a:hover {
     background-color: white;
     
 }
-.main_logo img{
+.main_logo2 img{
     height: 400px;
+    
     
 }
 .main_text{
